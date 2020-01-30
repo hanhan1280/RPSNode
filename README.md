@@ -23,5 +23,7 @@ RPSNode is a basic REST API using node.js, for posting rock, paper, or scissor r
 
 *SAMPLE RESPONSE*
 ```
+{
     "winCase": "SCISSOR"
+}
 ```
