@@ -11,7 +11,7 @@ RPSNode is a basic REST API using node.js, for posting rock, paper, or scissor r
 ### Rock Paper Scissor ###
 *POST:* `/rps`
 
-*DESCRIPTION:* This endpoint is to only request a hand sign for rock, paper, or scissors and to determine out of two adjacent requests, which is the winner from the combination
+*DESCRIPTION:* This endpoint is to only request a hand sign for rock, paper, or scissors and to determine the winning hand sign for the given combination
 
 *SAMPLE REQUEST*
 
@@ -23,12 +23,5 @@ RPSNode is a basic REST API using node.js, for posting rock, paper, or scissor r
 
 *SAMPLE RESPONSE*
 ```
-    "Player 2 wins with Paper"
-```
-
-*CONSOLE LOG:* 
-```
-Server started.
-{ id: 1, key: 'Rock' }
-{ id: 2, key: 'Paper' }
+    "winCase": "SCISSOR"
 ```
