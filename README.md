@@ -17,6 +17,18 @@ RPSNode is a basic REST API using node.js, for posting rock, paper, or scissor r
 
 ```
 {
-    "rpsValue": "Rock"
+    "rpsValue": "Paper"
 }
+```
+
+*SAMPLE RESPONSE*
+```
+    "Player 2 wins with Paper"
+```
+
+*CONSOLE LOG:* 
+```
+Server started.
+{ id: 1, key: 'Rock' }
+{ id: 2, key: 'Paper' }
 ```
